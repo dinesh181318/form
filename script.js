@@ -30,9 +30,8 @@ container.innerHTML=`<h2> Register  </h2>
         </div>
         </form>`
        
-        
-        
-        btn.addEventListener("click",(e)=>{
+        const button = document.getElementById("btn");
+         button.addEventListener("click",(e)=>{
             const fullName =document.getElementById("fullName").value;
         const userName =document.getElementById("userName").value;
         const mail =document.getElementById("email").value;
